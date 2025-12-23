@@ -303,6 +303,43 @@ span {
     color: var(--second-bg-color);
 }
 
+.tech-stack {
+    background: var(--second-bg-color);
+    text-align: center;
+}
+
+.tech-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2rem;
+    margin-top: 4rem;
+}
+
+.tech-box {
+    background: var(--bg-color);
+    border-radius: 1.5rem;
+    padding: 2.5rem 1rem;
+    border: .2rem solid var(--bg-color);
+    transition: .4s ease;
+}
+
+.tech-box:hover {
+    transform: scale(1.08);
+    border-color: var(--main-color);
+}
+
+.tech-box i {
+    font-size: 5rem;
+    color: var(--main-color);
+}
+
+.tech-box p {
+    margin-top: 1rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+
 
 
 
